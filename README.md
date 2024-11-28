@@ -26,7 +26,7 @@ pkg install python git
 
 2. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bugscanner-py.git
+git clone https://github.com/J5Home/bugscanner-py.git
 ```
 
 3. Install the package:
