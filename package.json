@@ -1,0 +1,33 @@
+{
+  "name": "bugscanner-js",
+  "version": "1.0.0",
+  "description": "A tool to scan for bugs in servers and protocols, inspired by bugscanner",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "bugscanner": "./bin/bugscanner.js"
+  },
+  "scripts": {
+    "start": "node bin/bugscanner.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": [
+    "bugscanner",
+    "protocol-scanner",
+    "server-scanner",
+    "termux",
+    "network-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^7.0.1",
+    "cli-table3": "^0.6.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
